@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // Set base to your repository name for GitHub Pages
-  // Change 'ShadowsOfSoldiersStaticWebpage' to your actual repo name
-  base: '/ShadowsOfSoldiersStaticWebpage/',
+  // IMPORTANT: Must match your actual GitHub repository name
+  base: '/ShadowsOfSoldiers/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
