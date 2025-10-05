@@ -3,8 +3,7 @@ import ReactPlayer from 'react-player/youtube';
 import '../styles/TrailerSection.css';
 
 const TrailerSection = () => {
-  // Using the YouTube channel URL - users can replace with specific video URL
-  const videoUrl = 'https://www.youtube.com/@shadowsofsoldiers';
+  const videoUrl = 'https://www.youtube.com/watch?v=-8-SOOu6eCk';
   
   return (
     <section className="trailer-section">

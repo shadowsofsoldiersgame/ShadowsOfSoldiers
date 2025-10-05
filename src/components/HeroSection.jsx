@@ -20,15 +20,6 @@ const HeroSection = () => {
           <h1>SHADOWS OF SOLDIERS</h1>
         </motion.div>
         
-        <motion.p
-          className="hero-tagline"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.3 }}
-        >
-          Tactical Military Action Game
-        </motion.p>
-        
         <motion.div
           className="hero-cta-container"
           initial={{ opacity: 0, y: 30 }}

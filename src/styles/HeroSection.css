@@ -6,8 +6,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
-  /* Background image will be added via inline style or CSS */
-  background-image: url('/assets/images/hero-background.jpg');
+  background-image: url('/assets/images/sosbackground.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
