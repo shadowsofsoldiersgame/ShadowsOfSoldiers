@@ -8,7 +8,15 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <p className="footer-text">
-          © {currentYear} Shadows of Soldiers. All Rights Reserved.
+          © {currentYear} Brought to you by{' '}
+          <a 
+            href="https://store.steampowered.com/developer/SneakyDevs" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            Sneaky Devs
+          </a>
         </p>
       </div>
     </footer>

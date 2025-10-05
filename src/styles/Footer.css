@@ -11,3 +11,14 @@
   letter-spacing: 1px;
 }
 
+.footer-link {
+  color: var(--accent-color, #ff6b6b);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: var(--accent-hover, #ff8787);
+  text-decoration: underline;
+}
+
