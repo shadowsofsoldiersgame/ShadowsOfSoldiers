@@ -55,6 +55,7 @@ git push -u origin main
 3. Click **Pages** in the left sidebar
 4. Under "Build and deployment":
    - **Source**: Select "GitHub Actions"
+   - **Important:** Don't choose from the suggested workflows that GitHub shows! Your project already includes the correct workflow file at `.github/workflows/deploy.yml`
 5. The site will build automatically from the workflow file
 
 ### Step 5: Wait for Deployment
