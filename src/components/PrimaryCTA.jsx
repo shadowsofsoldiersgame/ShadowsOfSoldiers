@@ -17,7 +17,7 @@ const PrimaryCTA = () => {
         className="cta-button cta-discord"
       >
         <FaDiscord className="cta-icon" />
-        <span className="cta-text">Join Our Community</span>
+        <span className="cta-text">Join Discord</span>
       </a>
       
       <a
